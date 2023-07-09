@@ -1,0 +1,288 @@
+/* Global style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the navbar */
+header{
+    background-color: #F4EEFF;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    padding: 0px 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: block;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+nav ul li a:hover{
+    background-color: #DCD6F7; 
+    border-bottom: 1px solid black;
+    font-size: 1.7rem;
+
+}
+
+
+/* styling for recruiter */
+.container{
+    display: flex;
+    background-color: #dcd6f7;
+    justify-content: space-between;
+    height: 600px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    padding: 0px 100px;
+}
+.info h1{
+    font-size: 100px;
+
+}
+.info p{
+    font-size: 30px;
+}
+#input_recruiter{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 70px 236px;
+    box-shadow: 0 0 20px 5px #42487470;
+}
+#input_recruiter div{
+    padding-top: 16px;
+}
+#input_recruiter div input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+/* Styling for jobseekers */
+
+#JobSeekers{
+    background-color: #A6B1E1;
+}
+
+#steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 50px;
+}
+.stepImage{
+    background-color: rgb(24 199 239 / 45%);
+    padding: 47px 51px;
+    border-radius: 151px;
+}
+.stepImage img{
+    height: 150px;
+    width: 150px;
+}
+
+.steptext{
+    margin: 10px 0px;
+    font-weight: bold;
+
+}
+
+/* styling for the features tag  */
+
+#Features{
+    background-color: #424874;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 300px;
+    align-items: center;
+    color: #FFF4F4; 
+
+    
+}
+#Features h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+
+}
+#why{
+    width: 1000px; 
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+#Search{
+    background-color: #B799FF;
+}
+#Hiring{
+    background-color: #AEE2FF;
+    
+}
+#Evaluation{
+    
+    background-color: #ACBCFF;
+}
+#Verified{
+    background-color: #E6FFFD;
+}
+#Hassle{
+    background-color: #FFDCB6;
+}
+.featureimage{
+    width: 80px;
+    height: 80px;
+    box-shadow: -4px 4px 8px 0px rgba(85, 75, 75, 0.644);
+
+
+}
+.listoffeatures{
+    display: inline-block; 
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+}
+.imagebox{
+    border-radius: 200px;
+    width: 150px;
+    height: 150px; 
+    padding: 30px;
+    margin-left: 70px;
+}
+.imagetext{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+.listoffeatures:hover{
+    transform: scale(1.4);
+
+}
+/* Styling for the footer  */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0e101a;
+    color: white;
+    padding: 20px 150px;
+    height: 480px;
+}
+
+#vertical_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#horizontal_footer {
+    padding: 0px;
+    margin: 90px 20px;
+}
+
+#box2 {
+    display: flex;
+    margin: 0px 100px;
+}
+
+#box2 .v_blocks {
+    margin: 0px 25px;
+}
+
+.v_blocks {
+    padding: 10px 10px;
+
+}
+
+#social_links {
+    display: flex;
+    padding-inline-start: 0;
+    margin-bottom: 0;
+}
+#wp_no{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#phone_text{
+    margin: 0px 10px;
+}
+#social_links li {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.linked_logo {
+    width: 40px;
+    height: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer li {
+    padding: 10px 10px;
+}
+
+
+/* Login and Register specific styles */
+
+/* Add your styles for login.html and register.html here */
+
+/* Candidate Search specific styles */
+
+/* Add your styles for search.html here */
